@@ -11,4 +11,12 @@ public class Pessoa {
         this.dataNascimento = LocalDate.parse(dataNascimento);
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
+
 }

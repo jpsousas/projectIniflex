@@ -23,4 +23,9 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
+    public String toString() {
+        return "Nome: " + getNome() + ", Data de Nascimento: " + getDataNascimento() +
+                ", Salário: " + salario + ", Função: " + funcao;
+    }
+
 }
